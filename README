@@ -1,0 +1,8 @@
+Multi-train Cross one Bridge Bimulation:
+
+Using threads to simulate trains approaching the bridge from two different directions. The software will ensure (among other things) that there is never more than one train on the bridge at any given time.
+
+The input files give each train 2 identities, one is the direction and another one is the length of the train.
+ 
+Each tain that the input file has will cross the "one way" bridge and if the bridge is occupied then the train will be
+put in a list to wait to cross the bridge.
